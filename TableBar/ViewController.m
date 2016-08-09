@@ -30,7 +30,7 @@
     
     [self addSubviewController:[[testViewController alloc] init] title:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
     
-    
+    NSLog(@"%@", self.tab.viewControllers[0].tabBarItem.image);
     
     
     
@@ -38,8 +38,8 @@
     tabBar.delegate = self;
     [self.tab setValue:tabBar forKey:@"tabBar"];
     self.tab.tabBar.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height - 55,[[UIScreen mainScreen] bounds].size.width, 55);
-    self.tab.tabBar.opaque=YES;
-    
+    NSLog(@"%f%f", self.tab.tabBar.subviews[0].frame.size.width,self.tab.tabBar.subviews[0].frame.size.height);
+//    NSLog(@"%f", self.tab.tabBar.button);
     
 }
 
@@ -62,6 +62,7 @@
     NSLog(@"231");
 
 }
+
 
 
 @end
