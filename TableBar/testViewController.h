@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  testViewController.h
 //  TableBar
 //
 //  Created by HanQi on 16/8/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController 
-
+@interface testViewController : UIViewController
 
 @end
-

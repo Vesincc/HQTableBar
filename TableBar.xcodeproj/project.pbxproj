@@ -15,6 +15,8 @@
 		BB1334BA1D5862C900FE0EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1334B81D5862C900FE0EA6 /* LaunchScreen.storyboard */; };
 		BB1334C51D5862C900FE0EA6 /* TableBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334C41D5862C900FE0EA6 /* TableBarTests.m */; };
 		BB1334D01D5862C900FE0EA6 /* TableBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334CF1D5862C900FE0EA6 /* TableBarUITests.m */; };
+		BB46AA6D1D588E5400B326E6 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46AA6C1D588E5400B326E6 /* testViewController.m */; };
+		BB46AA701D59B6FF00B326E6 /* HQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BB1334CB1D5862C900FE0EA6 /* TableBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1334CF1D5862C900FE0EA6 /* TableBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableBarUITests.m; sourceTree = "<group>"; };
 		BB1334D11D5862C900FE0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB46AA6B1D588E5400B326E6 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		BB46AA6C1D588E5400B326E6 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		BB46AA6E1D59B6FF00B326E6 /* HQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTabBar.h; sourceTree = "<group>"; };
+		BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				BB1334B81D5862C900FE0EA6 /* LaunchScreen.storyboard */,
 				BB1334BB1D5862C900FE0EA6 /* Info.plist */,
 				BB1334AA1D5862C900FE0EA6 /* Supporting Files */,
+				BB46AA6B1D588E5400B326E6 /* testViewController.h */,
+				BB46AA6C1D588E5400B326E6 /* testViewController.m */,
+				BB46AA6E1D59B6FF00B326E6 /* HQTabBar.h */,
+				BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */,
 			);
 			path = TableBar;
 			sourceTree = "<group>";
@@ -276,6 +286,8 @@
 				BB1334B21D5862C900FE0EA6 /* ViewController.m in Sources */,
 				BB1334AF1D5862C900FE0EA6 /* AppDelegate.m in Sources */,
 				BB1334AC1D5862C900FE0EA6 /* main.m in Sources */,
+				BB46AA701D59B6FF00B326E6 /* HQTabBar.m in Sources */,
+				BB46AA6D1D588E5400B326E6 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +511,7 @@
 				BB1334D61D5862C900FE0EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB1334D71D5862C900FE0EA6 /* Build configuration list for PBXNativeTarget "TableBarTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +520,7 @@
 				BB1334D91D5862C900FE0EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB1334DA1D5862C900FE0EA6 /* Build configuration list for PBXNativeTarget "TableBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				BB1334DC1D5862C900FE0EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
