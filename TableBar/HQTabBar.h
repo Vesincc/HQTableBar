@@ -21,6 +21,4 @@
 
 @property (nonatomic, weak) id <HQTabBarDelegate> delegate;
 
-
-
 @end

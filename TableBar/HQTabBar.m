@@ -24,7 +24,7 @@
         
         self.tabBarSize = size;
         
-        self.backgroundImage = [UIImage imageNamed:@"tabbar_background"];
+//        self.backgroundImage = [UIImage imageNamed:@"tabbar_background"];
         
         UIButton *button = [[UIButton alloc] init];
         
@@ -46,8 +46,6 @@
 }
 
 - (void)btnClick:(UIButton *)button {
-
-    NSLog(@"??");
     
     if ([self.delegate respondsToSelector:@selector(hQTabBar:btnDidClick:)]) {
     
@@ -105,7 +103,7 @@
        
         
     }
-     NSLog(@"%@", self.subviews);
+
 }
 
 

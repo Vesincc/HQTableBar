@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		BB1334AC1D5862C900FE0EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334AB1D5862C900FE0EA6 /* main.m */; };
 		BB1334AF1D5862C900FE0EA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334AE1D5862C900FE0EA6 /* AppDelegate.m */; };
-		BB1334B21D5862C900FE0EA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334B11D5862C900FE0EA6 /* ViewController.m */; };
-		BB1334B51D5862C900FE0EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1334B31D5862C900FE0EA6 /* Main.storyboard */; };
 		BB1334B71D5862C900FE0EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1334B61D5862C900FE0EA6 /* Assets.xcassets */; };
-		BB1334BA1D5862C900FE0EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1334B81D5862C900FE0EA6 /* LaunchScreen.storyboard */; };
 		BB1334C51D5862C900FE0EA6 /* TableBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334C41D5862C900FE0EA6 /* TableBarTests.m */; };
 		BB1334D01D5862C900FE0EA6 /* TableBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1334CF1D5862C900FE0EA6 /* TableBarUITests.m */; };
 		BB46AA6D1D588E5400B326E6 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46AA6C1D588E5400B326E6 /* testViewController.m */; };
 		BB46AA701D59B6FF00B326E6 /* HQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */; };
+		BBB027C51D59FB3B00221D9C /* HQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB027C41D59FB3B00221D9C /* HQTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +39,7 @@
 		BB1334AB1D5862C900FE0EA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB1334AD1D5862C900FE0EA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB1334AE1D5862C900FE0EA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB1334B01D5862C900FE0EA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB1334B11D5862C900FE0EA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BB1334B41D5862C900FE0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB1334B61D5862C900FE0EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB1334B91D5862C900FE0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1334BB1D5862C900FE0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1334C01D5862C900FE0EA6 /* TableBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1334C41D5862C900FE0EA6 /* TableBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableBarTests.m; sourceTree = "<group>"; };
@@ -57,6 +51,8 @@
 		BB46AA6C1D588E5400B326E6 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		BB46AA6E1D59B6FF00B326E6 /* HQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTabBar.h; sourceTree = "<group>"; };
 		BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTabBar.m; sourceTree = "<group>"; };
+		BBB027C31D59FB3B00221D9C /* HQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTabBarController.h; sourceTree = "<group>"; };
+		BBB027C41D59FB3B00221D9C /* HQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,17 +105,15 @@
 			children = (
 				BB1334AD1D5862C900FE0EA6 /* AppDelegate.h */,
 				BB1334AE1D5862C900FE0EA6 /* AppDelegate.m */,
-				BB1334B01D5862C900FE0EA6 /* ViewController.h */,
-				BB1334B11D5862C900FE0EA6 /* ViewController.m */,
-				BB1334B31D5862C900FE0EA6 /* Main.storyboard */,
 				BB1334B61D5862C900FE0EA6 /* Assets.xcassets */,
-				BB1334B81D5862C900FE0EA6 /* LaunchScreen.storyboard */,
 				BB1334BB1D5862C900FE0EA6 /* Info.plist */,
 				BB1334AA1D5862C900FE0EA6 /* Supporting Files */,
 				BB46AA6B1D588E5400B326E6 /* testViewController.h */,
 				BB46AA6C1D588E5400B326E6 /* testViewController.m */,
 				BB46AA6E1D59B6FF00B326E6 /* HQTabBar.h */,
 				BB46AA6F1D59B6FF00B326E6 /* HQTabBar.m */,
+				BBB027C31D59FB3B00221D9C /* HQTabBarController.h */,
+				BBB027C41D59FB3B00221D9C /* HQTabBarController.m */,
 			);
 			path = TableBar;
 			sourceTree = "<group>";
@@ -256,9 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1334BA1D5862C900FE0EA6 /* LaunchScreen.storyboard in Resources */,
 				BB1334B71D5862C900FE0EA6 /* Assets.xcassets in Resources */,
-				BB1334B51D5862C900FE0EA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1334B21D5862C900FE0EA6 /* ViewController.m in Sources */,
+				BBB027C51D59FB3B00221D9C /* HQTabBarController.m in Sources */,
 				BB1334AF1D5862C900FE0EA6 /* AppDelegate.m in Sources */,
 				BB1334AC1D5862C900FE0EA6 /* main.m in Sources */,
 				BB46AA701D59B6FF00B326E6 /* HQTabBar.m in Sources */,
@@ -321,25 +313,6 @@
 			targetProxy = BB1334CC1D5862C900FE0EA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BB1334B31D5862C900FE0EA6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB1334B41D5862C900FE0EA6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB1334B81D5862C900FE0EA6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB1334B91D5862C900FE0EA6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB1334D21D5862C900FE0EA6 /* Debug */ = {
