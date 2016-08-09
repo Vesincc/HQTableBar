@@ -29,6 +29,10 @@
     [self addSubviewController:self title:@"首页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
     
     [self addSubviewController:[[testViewController alloc] init] title:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+//    [self addSubviewController:[[testViewController alloc] init] title:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+//    [self addSubviewController:[[testViewController alloc] init] title:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+    
+    [self addSubviewController:[[UIViewController alloc] init] title:@"" image:nil selectedImage:nil];
     
     NSLog(@"%@", self.tab.viewControllers[0].tabBarItem.image);
     
@@ -38,9 +42,7 @@
     tabBar.delegate = self;
     [self.tab setValue:tabBar forKey:@"tabBar"];
     self.tab.tabBar.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height - 55,[[UIScreen mainScreen] bounds].size.width, 55);
-    NSLog(@"%f%f", self.tab.tabBar.subviews[0].frame.size.width,self.tab.tabBar.subviews[0].frame.size.height);
-//    NSLog(@"%f", self.tab.tabBar.button);
-    
+  
 }
 
 - (void)addSubviewController:(UIViewController *)viewController title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {

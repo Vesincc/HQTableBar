@@ -47,12 +47,13 @@
 
 - (void)btnClick:(UIButton *)button {
 
+    NSLog(@"??");
+    
     if ([self.delegate respondsToSelector:@selector(hQTabBar:btnDidClick:)]) {
     
         [self.delegate hQTabBar:self btnDidClick:button];
     
     }
-
 
 }
 
@@ -63,8 +64,9 @@
     CGPoint btnCenter = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
     self.centerButtton.center = btnCenter;
     
-    CGFloat tabBarX = (self.frame.size.width - self.centerButtton.frame.size.width)/(self.tabBarSize-1);
+    CGFloat tabBarX = (self.frame.size.width - self.centerButtton.frame.size.width)/(self.tabBarSize - 1);
     int tabBarIndex = 0;
+    
     for (UIView *subview in self.subviews) {
         
         Class class = NSClassFromString(@"UITabBarButton");
@@ -100,10 +102,10 @@
             }
         }
         
-        
+       
         
     }
-
+     NSLog(@"%@", self.subviews);
 }
 
 
